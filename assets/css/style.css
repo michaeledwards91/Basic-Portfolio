@@ -25,15 +25,30 @@ h1 {
 	font-weight: bold;
 }
 
+.image {
+    position: relative;
+}
+
 #myName {
 	background-color: #4FBFA5;
 	color: white;
 	width: 216px;
-	padding: 25px;
+	padding: 20px;
 	text-align: center;
 	margin-left: 100px;
 	float: left;
 	height: 80px;
+}
+
+#myNameAbout {
+    background-color: #4FBFA5;
+    color: white;
+    width: 216px;
+    padding: 9px;
+    text-align: center;
+    margin-left: 100px;
+    float: left;
+    height: 80px;
 }
 
 #portfolioLinks {
@@ -43,7 +58,7 @@ h1 {
 	padding: 27px;
 }
 
-#header {
+.header {
 	background-color: white;
 	height: 80px;
 }
@@ -120,3 +135,48 @@ h3 {
     border-width: 5px;
     border-color: #4FBFA5;
 }
+
+.navbar-form {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 95%;
+}
+
+#messageInput {
+    height: 200px;
+}
+
+.btn {
+    border-width: 0px;
+    background-color: #4FBFA5;
+    color: white;
+    padding: 8px;
+    width: 15%;
+}
+
+.portfolioImageHolder {
+    float: left;
+    width: 40%;
+}
+
+.portfolioImage {
+    width: 90%;
+}
+
+h4 {
+    width: 90%;
+    background-color: #4FBFA5;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 48px;
+    padding: 4px;
+}
+
+td {
+    border-left: 1px solid red;
+    padding: 5px;
+}
+
