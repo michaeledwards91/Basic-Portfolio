@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	letter-spacing: 1.2;
+	background-color: #CACACA;
+	color: #515151;
+}
+
+hr {
+	clear: both;
+	display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#myName {
+	background-color: #4FBFA5;
+	color: white;
+	width: 216px;
+	padding: 25px;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+	height: 80px;
+}
+
+#portfolioLinks {
+	/*float: left;*/
+	position: relative;
+	left: 38%;
+	padding: 27px;
+}
+
+#header {
+	background-color: white;
+	height: 80px;
+}
+
+#mainContent {
+	clear: both;
+}
+
+#aboutMe {
+	background-color: white;
+    margin-left: 100px;
+    margin-top: 34px;
+    padding: 27px;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#aboutMePic {
+	float: left;
+    margin-right: 18px;
+    height: 160px;
+}
+
+.spacedhr {
+	-webkit-margin-before: 0.8em;
+    -webkit-margin-after: 0.8em;
+}
+
+h2 {
+	font-size: 24px;
+    color: #4FBFA5;
+    font-weight: bold;
+}
+
+h3 {
+	font-size: 19px;
+	color: #4FBFA5;
+	font-weight: bold;
+}
+
+.contactIcon {
+	height: 50px;
+    width: 50px;
+}
+
+#contactBox {
+	background-color: white;
+    margin-left: 41px;
+    margin-top: 34px;
+    padding: 27px;
+    width: 17%;
+    float: left;
+}
+
+#footer {
+	clear: both;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    height: 80px;
+    background-color: grey;
+    padding: 32px;
+}
+
+.footerhr {
+	clear: both;
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 5px;
+    border-color: #4FBFA5;
+}
